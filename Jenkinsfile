@@ -8,7 +8,7 @@ pipeline {
         }
         stage ('Unit Tests') {
             steps {
-                bat 'mav test'
+                sh 'mav test'
             }
         }
     }
